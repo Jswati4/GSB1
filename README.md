@@ -38,7 +38,7 @@ L’architecture utilisée est **MVC (Modèle – Vue – Contrôleur)** afin de
 1. Cloner le projet :
 
    ```bash
-   git clone https://github.com/mon-projet/visites-medicales.git
+   https://github.com/Jswati4/GSB1.git
    cd visites-medicales
    ```
 2. Importer la base de données depuis `database.sql`.
@@ -88,7 +88,7 @@ The system is built using **MVC architecture (Model – View – Controller)** t
 1. Clone the project:
 
    ```bash
-   git clone https://github.com/my-project/medical-visits.git
+   https://github.com/Jswati4/GSB1.git
    cd medical-visits
    ```
 2. Import the database from `database.sql`.

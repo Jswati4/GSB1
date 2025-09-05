@@ -16,15 +16,15 @@ L’architecture utilisée est **MVC (Modèle – Vue – Contrôleur)** afin de
 * l’interface utilisateur (**Vue**),
 * la logique de navigation (**Contrôleur**).
 
-### 🏗️ Organisation du projet
+| Dossier / Fichier | Description                                                     |
+| ----------------- | --------------------------------------------------------------- |
+| `/modeles`        | Contient les **classes métiers** (Médecin, Rapport, Produit…)   |
+| `/vues`           | Regroupe les **pages et formulaires** affichés à l’utilisateur  |
+| `/controleurs`    | Gère les **actions de l’utilisateur** et la logique métier      |
+| `/config`         | Fichiers de **configuration** (connexion à la base de données…) |
+| `index.php`       | Point d’entrée principal de l’application                       |
+| `README.md`       | Documentation du projet                                         |
 
-/projet
-│── /modeles         → classes métiers (Médecin, Rapport, Produit…)
-│── /vues            → pages et formulaires affichés à l’utilisateur
-│── /controleurs     → gestion des actions utilisateur
-│── /config          → paramètres (connexion BD…)
-│── index.php        → point d’entrée du site
-│── README.md        → documentation du projet
 
 ### ⚙️ Fonctionnalités principales
 
@@ -66,15 +66,15 @@ The system is built using **MVC architecture (Model – View – Controller)** t
 * user interface (**View**),
 * application logic (**Controller**).
 
-### 🏗️ Project Structure
+| Folder / File  | Description                                              |
+| -------------- | -------------------------------------------------------- |
+| `/models`      | Contains **business classes** (Doctor, Report, Product…) |
+| `/views`       | Contains **pages and forms** displayed to the user       |
+| `/controllers` | Manages **user actions** and business logic              |
+| `/config`      | **Configuration files** (database connection, settings…) |
+| `index.php`    | Main entry point of the application                      |
+| `README.md`    | Project documentation                                    |
 
-/project
-│── /models          → business classes (Doctor, Report, Product…)
-│── /views           → user interface (pages, forms, lists)
-│── /controllers     → handles user actions
-│── /config          → settings (database connection…)
-│── index.php        → main entry point
-│── README.md        → project documentation
 ```
 
 ### ⚙️ Main Features
